@@ -1,0 +1,139 @@
+HTTrack3.49-2 launched on Sun, 20 Mar 2022 11:18:56 at https://simplefinance.net +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://simplefinance.net -O "/Users/dobri/Documents/Projects/simple-finance-website" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:27:29	Warning: 	Moved Permanently for s.w.org/
+11:27:29	Warning: 	File has moved from s.w.org/ to https://wordpress.org/
+11:28:00	Error: 	"Bad Gateway" (502) after 2 retries at link https://secureservercdn.net/robots.txt (from https://simplefinance.net/)
+11:28:00	Warning: 	Retry after error 502 (Bad Gateway) at link https://secureservercdn.net/ (from https://simplefinance.net/)
+11:28:00	Error: 	"Bad Request" (400) at link https://simplefinance.net/wp-admin/admin-ajax.php? (from https://simplefinance.net/)
+11:28:00	Error: 	"Forbidden" (403) at link https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/pagelayer/css/givecss.php?give=pagelayer-frontend.css%2Cnivo-lightbox.css%2Canimate.min.css%2Cowl.carousel.min.css%2Cowl.theme.default.min.css%2Cfont-awesome5.min.css&premium&ver=1.5.1&time=1647764531 (from https://simplefinance.net/)
+11:28:01	Error: 	"Method Not Allowed" (405) at link https://simplefinance.net/xmlrpc.php (from https://simplefinance.net/)
+11:37:01	Error: 	"Forbidden" (403) at link https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/pagelayer/css/givecss.php?give=pagelayer-frontend.css%2Cnivo-lightbox.css%2Canimate.min.css%2Cowl.carousel.min.css%2Cowl.theme.default.min.css%2Cfont-awesome5.min.css&premium&ver=1.5.1&time=1647357548 (from https://simplefinance.net/bg/)
+11:37:35	Error: 	"Not Found" (404) at link https://simplefinance.net/bg/politika-na-poveritelnost/ (from https://simplefinance.net/bg/)
+11:37:35	Error: 	"Forbidden" (403) at link www.google.com/search?ie=UTF-8&q=%D0%9D%D0%BE%D0%B2%D1%80%D1%83%D0%B7+2022%C2%A0%D0%B3.&oi=ddle&ct=174788805&hl=bg&sa=X&ved=0ahUKEwiiorv2rdT2AhVgLLkGHQgyAFcQPQgC (from www.google.com/)
+11:37:35	Warning: 	Moved Permanently for www.google.com/intl/bg/about/
+11:37:35	Warning: 	File has moved from www.google.com/intl/bg/about/ to https://about.google/intl/bg/
+11:37:35	Warning: 	Retry after error -2 (Receive Time Out) at link https://secureservercdn.net/ (from https://simplefinance.net/)
+11:37:35	Warning: 	Moved Permanently for https://simplefinance.net/?p=760
+11:37:35	Warning: 	File has moved from https://simplefinance.net/?p=760 to https://simplefinance.net/simple-marketing/
+11:37:35	Warning: 	Moved Permanently for https://simplefinance.net/?p=765
+11:37:35	Warning: 	File has moved from https://simplefinance.net/?p=765 to https://simplefinance.net/simple-it/
+11:37:35	Warning: 	Moved Permanently for https://simplefinance.net/?p=6077
+11:37:35	Warning: 	File has moved from https://simplefinance.net/?p=6077 to https://simplefinance.net/simple-law/
+11:37:35	Warning: 	Moved Permanently for https://simplefinance.net/?p=767
+11:37:35	Warning: 	File has moved from https://simplefinance.net/?p=767 to https://simplefinance.net/contacts/
+11:37:35	Warning: 	Moved Permanently for https://simplefinance.net/?p=4966
+11:37:35	Warning: 	File has moved from https://simplefinance.net/?p=4966 to https://simplefinance.net/terms-and-conditions/
+11:37:35	Warning: 	Moved Permanently for https://simplefinance.net/?p=4963
+11:37:35	Warning: 	File has moved from https://simplefinance.net/?p=4963 to https://simplefinance.net/cookie-policy/
+11:37:41	Warning: 	Moved Permanently for https://simplefinance.net/?p=4968
+11:37:41	Warning: 	File has moved from https://simplefinance.net/?p=4968 to https://simplefinance.net/privacy-policy/
+11:37:41	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=3250
+11:37:41	Warning: 	File has moved from https://simplefinance.net/bg/?p=3250 to https://simplefinance.net/bg/simple-marketing/
+11:37:41	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=3380
+11:37:41	Warning: 	File has moved from https://simplefinance.net/bg/?p=3380 to https://simplefinance.net/bg/simple-it/
+11:37:41	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=6158
+11:37:41	Warning: 	File has moved from https://simplefinance.net/bg/?p=6158 to https://simplefinance.net/bg/simple-law/
+11:37:41	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=3430
+11:37:41	Warning: 	File has moved from https://simplefinance.net/bg/?p=3430 to https://simplefinance.net/bg/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b8/
+11:37:41	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=4716
+11:37:41	Warning: 	File has moved from https://simplefinance.net/bg/?p=4716 to https://simplefinance.net/bg/obshti-usloviq/
+11:37:41	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=4697
+11:37:41	Warning: 	File has moved from https://simplefinance.net/bg/?p=4697 to https://simplefinance.net/bg/%d0%b7%d0%b0%d1%89%d0%b8%d1%82%d0%b0-%d0%bd%d0%b0-%d0%bb%d0%b8%d1%87%d0%bd%d0%b8%d1%82%d0%b5-%d0%b4%d0%b0%d0%bd%d0%bd%d0%b8/
+11:37:50	Error: 	"Bad Gateway" (502) after 2 retries at link https://secureservercdn.net/ (from https://simplefinance.net/)
+11:37:50	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=4711
+11:37:50	Warning: 	File has moved from https://simplefinance.net/bg/?p=4711 to https://simplefinance.net/bg/politika-za-poveritelnost/
+11:37:50	Warning: 	HTML file (2232 bytes) retransferred due to lack of cache: https://simplefinance.net/feed/
+11:37:50	Warning: 	HTML file (1630 bytes) retransferred due to lack of cache: https://simplefinance.net/comments/feed/
+11:37:52	Warning: 	HTML file (730 bytes) retransferred due to lack of cache: https://simplefinance.net/sample-page/feed/
+11:37:53	Warning: 	HTML file (257006 bytes) retransferred due to lack of cache: https://simplefinance.net/wp-json/
+11:37:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/wp-json/wp/v2/pages/2
+11:38:00	Warning: 	HTML file (1114 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/feed/
+11:38:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.google.com/recaptcha/api.js?render=6LdOz4AcAAAAACpkPphlXHr7aRqRtACVwOckZ4Ef&ver=3.0
+11:38:01	Warning: 	HTML file (737 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/comments/feed/
+11:38:01	Warning: 	HTML file (752 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/elementor-3155/feed/
+11:38:02	Warning: 	HTML file (496488 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/wp-json/
+11:38:05	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/bg/wp-json/wp/v2/pages/3155
+11:38:09	Error: 	"Bad Gateway" (502) after 2 retries at link https://secureservercdn.net/robots.txt (from https://simplefinance.net/)
+11:38:09	Error: 	"" (403) at link https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/pagelayer/css/givecss.php?give=pagelayer-frontend.css%2Cnivo-lightbox.css%2Canimate.min.css%2Cowl.carousel.min.css%2Cowl.theme.default.min.css%2Cfont-awesome5.min.css&premium&ver=1.5.1&time=1647764531 (from https://simplefinance.net/)
+11:38:10	Warning: 	HTML file (737 bytes) retransferred due to lack of cache: https://simplefinance.net/simple-marketing/feed/
+11:38:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/wp-json/wp/v2/pages/760
+11:48:14	Warning: 	HTML file (723 bytes) retransferred due to lack of cache: https://simplefinance.net/simple-it/feed/
+11:48:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/wp-json/wp/v2/pages/765
+11:48:35	Warning: 	HTML file (725 bytes) retransferred due to lack of cache: https://simplefinance.net/simple-law/feed/
+11:48:38	Warning: 	HTML file (721 bytes) retransferred due to lack of cache: https://simplefinance.net/contacts/feed/
+11:48:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/wp-json/wp/v2/pages/6077
+11:48:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/wp-json/wp/v2/pages/767
+11:48:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/wp-json/wp/v2/pages/4966
+11:48:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/wp-json/wp/v2/pages/4968
+11:48:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/wp-json/wp/v2/pages/4963
+11:48:45	Warning: 	HTML file (756 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/simple-marketing/feed/
+11:48:48	Warning: 	HTML file (742 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/simple-it/feed/
+11:48:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/bg/wp-json/wp/v2/pages/3250
+11:48:49	Warning: 	HTML file (744 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/simple-law/feed/
+11:48:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/bg/wp-json/wp/v2/pages/3380
+11:48:52	Warning: 	HTML file (788 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/контакти/feed/
+11:48:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/bg/wp-json/wp/v2/pages/6158
+11:48:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/bg/wp-json/wp/v2/pages/4716
+11:48:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/bg/wp-json/wp/v2/pages/3430
+11:48:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://simplefinance.net/bg/wp-json/wp/v2/pages/4711
+11:49:20	Warning: 	HTML file (199 bytes) retransferred due to lack of cache: https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/pagelayer/css/givecss.php?give=pagelayer-frontend.css%2Cnivo-lightbox.css%2Canimate.min.css%2Cowl.carousel.min.css%2Cowl.theme.default.min.css%2Cfont-awesome5.min.css&premium&ver=1.5.1&time=1647357548
+11:49:21	Error: 	"Forbidden" (403) at link https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/pagelayer/css/givecss.php?give=pagelayer-frontend.css%2Cnivo-lightbox.css%2Canimate.min.css%2Cowl.carousel.min.css%2Cowl.theme.default.min.css%2Cfont-awesome5.min.css&premium&ver=1.5.1&time=1647357548 (from https://simplefinance.net/bg/)
+11:49:30	Warning: 	HTML file (799 bytes) retransferred due to lack of cache: www.google.com/intl/bg/about/
+11:49:31	Warning: 	Moved Permanently for www.google.com/intl/bg/about/
+11:49:31	Warning: 	File has moved from www.google.com/intl/bg/about/ to https://about.google/intl/bg/
+11:49:33	Warning: 	HTML file (785 bytes) retransferred due to lack of cache: https://simplefinance.net/?p=760
+11:49:35	Warning: 	Moved Permanently for https://simplefinance.net/?p=760
+11:49:35	Warning: 	File has moved from https://simplefinance.net/?p=760 to https://simplefinance.net/simple-marketing/
+11:49:35	Warning: 	Retry after error -2 (Receive Time Out) at link https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/08/Untitled-1-04.png?time=1647357548 (from https://simplefinance.net/simple-marketing/)
+11:49:35	Warning: 	Retry after error -2 (Receive Time Out) at link https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/08/Untitled-1-05.png?time=1647357548 (from https://simplefinance.net/simple-marketing/)
+11:49:37	Warning: 	HTML file (771 bytes) retransferred due to lack of cache: https://simplefinance.net/?p=765
+11:49:38	Warning: 	Moved Permanently for https://simplefinance.net/?p=765
+11:49:38	Warning: 	File has moved from https://simplefinance.net/?p=765 to https://simplefinance.net/simple-it/
+11:49:40	Warning: 	HTML file (775 bytes) retransferred due to lack of cache: https://simplefinance.net/?p=6077
+11:49:41	Warning: 	Moved Permanently for https://simplefinance.net/?p=6077
+11:49:41	Warning: 	File has moved from https://simplefinance.net/?p=6077 to https://simplefinance.net/simple-law/
+11:49:41	Warning: 	HTML file (769 bytes) retransferred due to lack of cache: https://simplefinance.net/?p=767
+11:49:42	Warning: 	Moved Permanently for https://simplefinance.net/?p=767
+11:49:42	Warning: 	File has moved from https://simplefinance.net/?p=767 to https://simplefinance.net/contacts/
+11:49:43	Warning: 	HTML file (795 bytes) retransferred due to lack of cache: https://simplefinance.net/?p=4966
+11:49:44	Warning: 	Moved Permanently for https://simplefinance.net/?p=4966
+11:49:44	Warning: 	File has moved from https://simplefinance.net/?p=4966 to https://simplefinance.net/terms-and-conditions/
+11:49:46	Warning: 	HTML file (781 bytes) retransferred due to lack of cache: https://simplefinance.net/?p=4963
+11:49:47	Warning: 	Moved Permanently for https://simplefinance.net/?p=4963
+11:49:47	Warning: 	File has moved from https://simplefinance.net/?p=4963 to https://simplefinance.net/cookie-policy/
+11:49:48	Warning: 	HTML file (783 bytes) retransferred due to lack of cache: https://simplefinance.net/?p=4968
+11:49:49	Warning: 	Moved Permanently for https://simplefinance.net/?p=4968
+11:49:49	Warning: 	File has moved from https://simplefinance.net/?p=4968 to https://simplefinance.net/privacy-policy/
+11:49:49	Warning: 	HTML file (793 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/?p=3250
+11:49:50	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=3250
+11:49:50	Warning: 	File has moved from https://simplefinance.net/bg/?p=3250 to https://simplefinance.net/bg/simple-marketing/
+11:49:50	Warning: 	HTML file (779 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/?p=3380
+11:49:51	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=3380
+11:49:51	Warning: 	File has moved from https://simplefinance.net/bg/?p=3380 to https://simplefinance.net/bg/simple-it/
+11:49:51	Warning: 	HTML file (781 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/?p=6158
+11:49:53	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=6158
+11:49:53	Warning: 	File has moved from https://simplefinance.net/bg/?p=6158 to https://simplefinance.net/bg/simple-law/
+11:49:53	Warning: 	HTML file (857 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/?p=3430
+11:49:54	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=3430
+11:49:54	Warning: 	File has moved from https://simplefinance.net/bg/?p=3430 to https://simplefinance.net/bg/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b8/
+11:49:54	Warning: 	HTML file (789 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/?p=4716
+11:49:55	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=4716
+11:49:55	Warning: 	File has moved from https://simplefinance.net/bg/?p=4716 to https://simplefinance.net/bg/obshti-usloviq/
+11:49:55	Warning: 	HTML file (1007 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/?p=4697
+11:49:57	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=4697
+11:49:57	Warning: 	File has moved from https://simplefinance.net/bg/?p=4697 to https://simplefinance.net/bg/%d0%b7%d0%b0%d1%89%d0%b8%d1%82%d0%b0-%d0%bd%d0%b0-%d0%bb%d0%b8%d1%87%d0%bd%d0%b8%d1%82%d0%b5-%d0%b4%d0%b0%d0%bd%d0%bd%d0%b8/
+11:51:03	Warning: 	HTML file (811 bytes) retransferred due to lack of cache: https://simplefinance.net/bg/?p=4711
+11:51:06	Warning: 	Moved Permanently for https://simplefinance.net/bg/?p=4711
+11:51:06	Warning: 	File has moved from https://simplefinance.net/bg/?p=4711 to https://simplefinance.net/bg/politika-za-poveritelnost/
+12:01:23	Warning: 	Retry after error -2 (Receive Time Out) at link https://simplefinance.net/bg/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsimplefinance.net%2Fbg%2Fpolitika-za-poveritelnost%2F&format=xml (from https://simplefinance.net/bg/politika-za-poveritelnost/)
+12:06:03	Warning: 	Retry after error -2 (Receive Time Out) at link https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/08/Untitled-1-04.png?time=1647357548 (from https://simplefinance.net/simple-marketing/)
+12:06:03	Warning: 	Retry after error -2 (Receive Time Out) at link https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/08/Untitled-1-05.png?time=1647357548 (from https://simplefinance.net/simple-marketing/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 47 minutes 13 seconds : 390 links scanned, 407 files written (66512083 bytes overall) [47239107 bytes received at 16674 bytes/sec], 10037725 bytes transferred using HTTP compression in 186 files, ratio 17%, 2.6 requests per connection
+(11 errors, 117 warnings, 0 messages)
