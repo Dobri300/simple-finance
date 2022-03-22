@@ -120,6 +120,31 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }
+#mainImage
+{
+	/* -webkit-animation: zoomin 5s 1;
+	-webkit-animation: zoomout 5s 1; */
+	transition: 500ms;
+	animation: zoomin 20s steps(2000) infinite;
+}
+@-webkit-keyframes zoomin {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.2);
+    }
+
+}
+@-webkit-keyframes zoomout {
+    0% {
+        -webkit-transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+
+}
 </style>
 	<link rel='stylesheet' id='pagelayer-frontend-css'  href='../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/pagelayer/css/givecssb971.html?give=pagelayer-frontend.css%2Cnivo-lightbox.css%2Canimate.min.css%2Cowl.carousel.min.css%2Cowl.theme.default.min.css%2Cfont-awesome5.min.css&amp;premium&amp;ver=1.5.1&amp;time=1647764531' media='all' />
 <link rel='stylesheet' id='lastudio-kit-css-transform-css'  href='../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/lastudio-element-kit/assets/css/addons/css-transformd9b3.css?ver=1.0.3&amp;time=1647764531' media='all' />
@@ -452,7 +477,7 @@ ol, ul {
 
 			<div data-elementor-type="wp-page" data-elementor-id="2" class="elementor elementor-2" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
-							<section class="elementor-section elementor-top-section elementor-element elementor-element-26ee8a83 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="26ee8a83" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<section id="mainImage" class="elementor-section elementor-top-section elementor-element elementor-element-26ee8a83 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="26ee8a83" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5c38f8d8" data-id="5c38f8d8" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -609,6 +634,7 @@ buton6.click(function(){
     jQuery(".text").show();
   }
 });
+		// document.getElementById("mainImage").style = "	-webkit-animation: zoomin 5s 1; -webkit-animation: zoomout 5s 1;";
 
 </script>		</div>
 				</div>
