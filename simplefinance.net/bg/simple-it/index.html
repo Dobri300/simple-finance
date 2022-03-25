@@ -8,6 +8,8 @@
 		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 <link rel="alternate" hreflang="en" href="../../simple-it/index.html" />
 <link rel="alternate" hreflang="bg" href="index.html" />
+<link rel="stylesheet" href="../../global.css">
+<script src="../../global.js"></script>
 
 	<!-- This site is optimized with the Yoast SEO plugin v18.1 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Simple It - simple</title>
@@ -324,14 +326,6 @@ ol, ul {
 .text124, .text125{
 	display:none;
 }
-
-@media (max-width: 767px){
-	a.hfe-menu-item{
-	color:black !important;
-   }
-}
-
-
 @media (max-width: 767px){
 	.buton1{
 		left: 15px;
@@ -405,15 +399,22 @@ ol, ul {
 						<div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none" data-layout="horizontal">
 				<div class="hfe-nav-menu__toggle elementor-clickable">
 					<div class="hfe-nav-menu-icon">
-						<i aria-hidden="true" tabindex="0" class="icon icon-menu-1"></i>					</div>
+						<!-- <i aria-hidden="true" tabindex="0" class="icon icon-menu-1"></i>	 -->
+									</div>
 				</div>
-				<nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow" data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;icon icon-menu-1&quot;&gt;&lt;/i&gt;" data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;icon icon-cross&quot;&gt;&lt;/i&gt;" data-full-width="yes"><ul id="menu-1-bd38656" class="hfe-nav-menu"><li id="menu-item-4692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home parent hfe-creative-menu"><a href="../index.html" class = "hfe-menu-item">Simple Finance</a></li>
+				<div style="display: flex; justify-content: center; margin-left: -230px;">
+					<li style="color: white;" id="menu-item-790" onclick="openCircle()" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="#servicesMenu" class = "hfe-menu-item">Нашите Услуги</a></li>
+					<li id="menu-item-788" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="../контакти/index.html" class = "hfe-menu-item">Контакти</a></li>
+				</div>
+				<!-- <nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow" data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;icon icon-menu-1&quot;&gt;&lt;/i&gt;" data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;icon icon-cross&quot;&gt;&lt;/i&gt;" data-full-width="yes"><ul id="menu-1-bd38656" class="hfe-nav-menu"><li id="menu-item-4692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home parent hfe-creative-menu"><a href="../index.html" class = "hfe-menu-item">Simple Finance</a></li>
 <li id="menu-item-4694" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="../simple-marketing/index.html" class = "hfe-menu-item">Simple Marketing</a></li>
 <li id="menu-item-4693" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3380 current_page_item parent hfe-creative-menu"><a href="index.html" class = "hfe-menu-item">Simple IT</a></li>
 <li id="menu-item-6268" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="../simple-law/index.html" class = "hfe-menu-item">Simple law</a></li>
 <li id="menu-item-4696" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="../%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b8/index.html" class = "hfe-menu-item">Контакти</a></li>
 <li id="menu-item-5789" class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu"><a href="https://groupsimple.sharepoint.com/" class = "hfe-menu-item">Вход за клиенти</a></li>
-<li id="menu-item-wpml-ls-4-en" class="menu-item wpml-ls-slot-4 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item parent hfe-creative-menu"><a href="../../simple-it/index.html" class = "hfe-menu-item"><img
+<li id="menu-item-wpml-ls-4-en" class="menu-item wpml-ls-slot-4 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item parent hfe-creative-menu"><a href="../../simple-it/index.html" class = "hfe-menu-item">
+	 -->
+	<img
             class="wpml-ls-flag"
             src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
             alt="Английски"
@@ -465,7 +466,7 @@ ol, ul {
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-aef0a20 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="aef0a20" data-element_type="section">
+				<section id="servicesMenu" class="elementor-section elementor-inner-section elementor-element elementor-element-aef0a20 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="aef0a20" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-b7544ed" data-id="b7544ed" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -481,44 +482,64 @@ ol, ul {
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-7f07c80 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f07c80" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-af4fec6" data-id="af4fec6" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e94cae7 elementor-widget-mobile__width-auto buton1 elementor-invisible elementor-widget elementor-widget-button" data-id="e94cae7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:&quot;400&quot;}" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="#services2" class="elementor-button-link elementor-button elementor-size-xl elementor-animation-float" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-right">
-				<i aria-hidden="true" class="fas fa-angle-right"></i>			</span>
-						<span class="elementor-button-text">Научи повече</span>
-		</span>
-					</a>
+				
+		<section>
+			<div class="circle-menu" id="circleMenuBg" style="display: flex; justify-content: center; width: 500px; height: 200px; margin-top: 20vh;">
+				<nav style="padding-top: 11vh;" class="menu">
+					<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+					<label class="menu-open-button" for="menu-open">
+					 <!-- <span class="lines line-1"></span>
+					 <span class="lines line-2"></span>
+					 <span class="lines line-3"></span> -->
+					 <p style="color: black; font-size: 1.5vh; padding-top: 36px;">Нашите услуги</p>
+				   </label>
+					<a style="padding-top: 6px;" href="../index.html" class="menu-item-circle blue"> <i class="fa"></i>Simple Finance</a>
+					<a style="padding-top: 6px;" href="../simple-marketing/index.html" class="menu-item-circle green"> <i class="fa "></i>Simple Marketing</a>
+					<a style="padding-top: 6px;" href="../simple-it/index.html" class="menu-item-circle red"> <i class="fa"></i>Simple IT</a>
+					<a style="padding-top: 6px; visibility: hidden;" href="#" class="menu-item-circle purple"> <i class="fa "></i>Научи повече</a>
+					<a style="padding-top: 6px; visibility: hidden;" href="../контакти/index.html" class="menu-item-circle orange"> <i class="fa "></i>Контакти</a>
+					<a style="padding-top: 6px;" href="index.html" class="menu-item-circle lightblue"> <i class="fa "></i>Simple Law</a>
+				 </nav>
+				</div>
+			</section>
+			<section  style="display: flex; justify-content: center;"  class="elementor-section elementor-inner-section elementor-element elementor-element-7f07c80 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f07c80" data-element_type="section">
+				<div class="elementor-container elementor-column-gap-default">
+			<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-af4fec6" data-id="af4fec6" data-element_type="column">
+	<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e94cae7 elementor-widget-mobile__width-auto buton1 elementor-invisible elementor-widget elementor-widget-button" data-id="e94cae7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:&quot;400&quot;}" data-widget_type="button.default">
+		<div class="elementor-widget-container">
+			<div class="elementor-button-wrapper">
+	<a style="width: 70vh; margin-left: -22vh;" href="#services2" class="elementor-button-link elementor-button elementor-size-xl elementor-animation-float" role="button">
+				<span class="elementor-button-content-wrapper">
+				<span class="elementor-button-icon elementor-align-icon-right">
+		<i aria-hidden="true" class="fas fa-angle-right"></i>			</span>
+				<span class="elementor-button-text">Научи повече</span>
+</span>
+			</a>
+</div>
 		</div>
-				</div>
-				</div>
+		</div>
+			</div>
+</div>
+		<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bc6797f" data-id="bc6797f" data-element_type="column">
+	<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-588a7a1 elementor-widget-mobile__width-auto buton2 elementor-button-info elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="588a7a1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:&quot;400&quot;}" data-widget_type="button.default">
+		<div class="elementor-widget-container">
+			<div class="elementor-button-wrapper">
+	<!-- <a href="../%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b8/index.html" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-float" role="button">
+				<span class="elementor-button-content-wrapper">
+				<span class="elementor-button-icon elementor-align-icon-right">
+		<i aria-hidden="true" class="fas fa-angle-right"></i>			</span>
+				<span class="elementor-button-text">Запази консултация</span>
+</span> -->
+			</a>
+</div>
+		</div>
+		</div>
+			</div>
+</div>
 					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bc6797f" data-id="bc6797f" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-588a7a1 elementor-widget-mobile__width-auto buton2 elementor-button-info elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="588a7a1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:&quot;400&quot;}" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="../%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b8/index.html" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-float" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-right">
-				<i aria-hidden="true" class="fas fa-angle-right"></i>			</span>
-						<span class="elementor-button-text">Запази консултация</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
+</section>
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-9173ace elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9173ace" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2dfad7c" data-id="2dfad7c" data-element_type="column">

@@ -330,3 +330,58 @@ a {
 .credit a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 767px){
+	a.hfe-menu-item{
+	/* color:black !important; */
+	margin-left: 60px;
+	color: white;
+   }
+   .menu-item-object-page
+   {
+	   position: absolute;
+	   left: 15%;
+	   padding-top: 150px;
+   }
+   .wpml-ls-flag
+   {
+	   position: fixed;
+	   top: 8%;
+	   margin: 0;
+	   margin-left: -10px;
+
+   }
+   #menu-item-wpml-ls-4-bg
+   {
+	position: absolute;
+	margin-top: 100px;
+   }
+}
+@media (min-width: 767px){
+	#moreId
+	{
+		margin-left: -13vh;
+	}
+}
+@media (max-width: 767px){
+   #circleMenuBg
+   {
+	   padding-bottom: 40vh;
+   }
+}
+@media (max-width: 500px){
+   #circleMenuBg
+   {
+	   padding-bottom: 5vh;
+     margin-top: 80px;
+   }
+   #discoverMorePanel
+   {
+     margin-top: 160px;
+   }
+   .elementor-section-height-default
+   {
+    margin-top: 120px;
+   }
+
+}
