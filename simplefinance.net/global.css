@@ -1,3 +1,7 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 #mainImage
 {
 	/* -webkit-animation: zoomin 5s 1;
@@ -249,35 +253,39 @@ a {
 }
 
 .blue {
-  background-color: #669AE1;
+  background-color: rgb(95, 126, 172);
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .blue:hover {
-  color: #669AE1;
+  color: rgb(95, 126, 172);
   text-shadow: none;
 }
 
 .green {
-  background-color: #70CC72;
+  /* background-color: #70CC72; */
+  background-color: rgb(69, 104, 156);
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .green:hover {
-  color: #70CC72;
+  /* color: #70CC72; */
+  color: rgb(59, 90, 133);
   text-shadow: none;
 }
 
 .red {
-  background-color: #FE4365;
+  /* background-color: #FE4365; */
+  background-color: rgb(48, 81, 128);
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .red:hover {
-  color: #FE4365;
+  /* color: #FE4365; */
+  color: rgb(49, 80, 124);
   text-shadow: none;
 }
 
@@ -304,13 +312,15 @@ a {
 }
 
 .lightblue {
-  background-color: #62C2E4;
+  /* background-color: #62C2E4; */
+  /* background-color: #669AE1; */
+  background-color: rgb(115, 143, 185);
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .lightblue:hover {
-  color: #62C2E4;
+  color: rgb(115, 143, 185);
   text-shadow: none;
 }
 
@@ -354,7 +364,6 @@ a {
    #menu-item-wpml-ls-4-bg
    {
 	position: absolute;
-	margin-top: 100px;
    }
 }
 @media (min-width: 767px){
@@ -383,5 +392,12 @@ a {
    {
     margin-top: 120px;
    }
-
+   #menu-item-wpml-ls-4-en
+   {
+     margin-left: -35px;
+   }
+   #menu-item-wpml-ls-4-bg
+   {
+    margin-left: -30px;
+   }
 }
