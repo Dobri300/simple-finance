@@ -28,6 +28,7 @@
 
 
 <link rel='dns-prefetch' href='../../../www.google.com/index.html' />
+<link rel="stylesheet" href="global.css">
 <link rel='dns-prefetch' href='../../../s.w.org/index.html' />
 <link rel="alternate" type="application/rss+xml" title="simple &raquo; Поток" href="../feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title="simple &raquo; поток за коментари" href="../comments/feed/index.html" />
@@ -87,7 +88,7 @@ var pagelayer_recaptch_lang = "";
 	.pagelayer-last-sm {
 		order: 1;
 	}
-	
+
 
 }
 
@@ -153,7 +154,7 @@ var log_object = {"ajax_url":"https:\/\/simplefinance.net\/wp-admin\/admin-ajax.
 </script>
 <script src='../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public5b25.js?ver=2.0.6&amp;time=1647357548' id='cookie-law-info-js'></script>
 <link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/3430.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-includes/wlwmanifest32a6.xml?time=1647357548" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-includes/wlwmanifest32a6.xml?time=1647357548" />
 <meta name="generator" content="WordPress 5.9.2" />
 <link rel='shortlink' href='../index6611.html?p=3430' />
 <link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed1fed.json?url=https%3A%2F%2Fsimplefinance.net%2Fbg%2F%25d0%25ba%25d0%25be%25d0%25bd%25d1%2582%25d0%25b0%25d0%25ba%25d1%2582%25d0%25b8%2F" />
@@ -180,10 +181,10 @@ var log_object = {"ajax_url":"https:\/\/simplefinance.net\/wp-admin\/admin-ajax.
 <link rel="apple-touch-icon" href="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/07/cropped-simple-finance_brand-identity--180x180.png" />
 <meta name="msapplication-TileImage" content="https://secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/07/cropped-simple-finance_brand-identity--270x270.png" />
 <script type="text/javascript">function setREVStartSize(e){
-			//window.requestAnimationFrame(function() {				 
-				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
-				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
-				try {								
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
 					var pw = document.getElementById(e.c).parentNode.offsetWidth,
 						newh;
 					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
@@ -193,35 +194,35 @@ var log_object = {"ajax_url":"https:\/\/simplefinance.net\/wp-admin\/admin-ajax.
 					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
 					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
 					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
-					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
-					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
-						newh = Math.max(e.mh,window.RSIH);					
-					else{					
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
 						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
 						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
 						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
 						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
-											
+
 						var nl = new Array(e.rl.length),
-							ix = 0,						
-							sl;					
+							ix = 0,
+							sl;
 						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
 						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
 						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
-						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
 						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
-						sl = nl[0];									
-						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
-						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
 						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
-					}				
-					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					}
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
 					document.getElementById(e.c).height = newh+"px";
-					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";
 				} catch(e){
 					console.log("Failure at Presize of Slider:" + e)
-				}					   
+				}
 			//});
 		  };</script>
 		<style id="wp-custom-css">
@@ -375,6 +376,12 @@ ol, ul {
 }		</style>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
 <body class="page-template page-template-elementor_canvas page page-id-3430 wp-custom-logo ltr ehf-header ehf-footer ehf-template-popularfx ehf-stylesheet-popularfx popularfx-body elementor-default elementor-template-canvas elementor-kit-147 elementor-page elementor-page-3430 pagelayer-body">
+	<div style="display:none;">
+	<img src="img/sf_white.jpg"/>
+	<img src="img/sit_white.png"/>
+	<img src="img/slaw_white.jpg"/>
+	<img src="img/sm_white.jpg"/>
+	</div>
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>		<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
 			<p class="main-title bhf-hidden" itemprop="headline"><a href="../index.html" title="simple" rel="home">simple</a></p>
 					<div data-elementor-type="wp-post" data-elementor-id="5562" class="elementor elementor-5562 elementor-5459" data-elementor-settings="[]">
@@ -387,13 +394,13 @@ ol, ul {
 				<div class="elementor-widget-container">
 					<div class="hfe-site-logo">
 													<a data-elementor-open-lightbox=""  class='elementor-clickable' href="../../index.html">
-							<div class="hfe-site-logo-set">           
+							<div class="hfe-site-logo-set">
 				<div class="hfe-site-logo-container">
 					<img class="hfe-site-logo-img elementor-animation-"  src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/07/Simple-Finance_Brand-Identity-landing32a6.png?time=1647357548" alt="Simple-Finance_Brand-Identity-landing"/>
 				</div>
 			</div>
 							</a>
-						</div>  
+						</div>
 					</div>
 				</div>
 					</div>
@@ -407,29 +414,41 @@ ol, ul {
 					<div class="hfe-nav-menu-icon">
 						<i aria-hidden="true" tabindex="0" class="icon icon-menu-1"></i>					</div>
 				</div>
-				<nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow" data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;icon icon-menu-1&quot;&gt;&lt;/i&gt;" data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;icon icon-cross&quot;&gt;&lt;/i&gt;" data-full-width="yes"><ul id="menu-1-bd38656" class="hfe-nav-menu"><li id="menu-item-4692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home parent hfe-creative-menu"><a href="../index.html" class = "hfe-menu-item">Simple Finance</a></li>
-<li id="menu-item-4694" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="../simple-marketing/index.html" class = "hfe-menu-item">Simple Marketing</a></li>
-<li id="menu-item-4693" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="../simple-it/index.html" class = "hfe-menu-item">Simple IT</a></li>
-<li id="menu-item-6268" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="../simple-law/index.html" class = "hfe-menu-item">Simple law</a></li>
-<li id="menu-item-4696" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3430 current_page_item parent hfe-creative-menu"><a href="index.html" class = "hfe-menu-item">Контакти</a></li>
-<!-- <li id="menu-item-5789" class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu"><a href="https://groupsimple.sharepoint.com/" class = "hfe-menu-item">Вход за клиенти</a></li>
-<li id="menu-item-wpml-ls-4-en" class="menu-item wpml-ls-slot-4 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item parent hfe-creative-menu">
-	 -->
-	<a href="../../contacts/index.html" class = "hfe-menu-item"><img
-            class="wpml-ls-flag"
-            src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
-            alt="Английски"
-            width=35
-            height=25
-    /></a></li>
-<li id="menu-item-wpml-ls-4-bg" class="menu-item wpml-ls-slot-4 wpml-ls-item wpml-ls-item-bg wpml-ls-current-language wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item parent hfe-creative-menu"><a href="index.html" class = "hfe-menu-item"><img
-            class="wpml-ls-flag"
-            src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/bg.png"
-            alt="Български"
-            width=35
-            height=25
-    /></a></li>
-</ul></nav>              
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1058a29" data-id="1058a29" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bd38656 hfe-nav-menu__breakpoint-mobile navbar1 hfe-nav-menu__align-left hfe-submenu-icon-arrow hfe-submenu-animation-none hfe-link-redirect-child elementor-widget elementor-widget-navigation-menu" data-id="bd38656" data-element_type="widget" data-widget_type="navigation-menu.default">
+				<div class="elementor-widget-container">
+						<div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none" data-layout="horizontal">
+				<div class="hfe-nav-menu__toggle elementor-clickable">
+					<div class="hfe-nav-menu-icon">
+						<i aria-hidden="true" tabindex="0" class="icon icon-menu-1"></i>					</div>
+				</div>
+				<div>
+				<li style="position: absolute; left: 86%;" id="menu-item-wpml-ls-4-en" class="menu-item wpml-ls-slot-4 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item parent hfe-creative-menu"><a href="../../contacts/index.html" class = "hfe-menu-item"><img
+				            class="wpml-ls-flag"
+				            src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+				            alt="English"
+				            width=35
+				            height=25
+				    /></a></li>
+				<li style="position: absolute; left: 90%;"id="menu-item-wpml-ls-4-bg" class="menu-item wpml-ls-slot-4 wpml-ls-item wpml-ls-item-bg wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item parent hfe-creative-menu"><a href="index.html" class = "hfe-menu-item"><img
+				            class="wpml-ls-flag"
+				            src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/bg.png"
+				            alt="Bulgarian"
+				            width=35
+				            height=25
+				    /></a></li>
+				</div>
+				<div style="display: flex; padding-left:68%;">
+				<!-- <nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow" data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;icon icon-menu-1&quot;&gt;&lt;/i&gt;" data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;icon icon-cross&quot;&gt;&lt;/i&gt;" data-full-width="yes"><ul id="menu-1-bd38656" class="hfe-nav-menu"><li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item parent hfe-creative-menu"><a href="index.html" class = "hfe-menu-item">Simple Finance</a></li> -->
+				<li id="menu-item-788" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="https://groupsimple.sharepoint.com/_layouts/15/sharepoint.aspx" class = "hfe-menu-item">Вход за клиенти</a></li>
+				</div>
+
+			</div>
+					</div>
+				</div>
+					</div>
+		</div>
 			</div>
 					</div>
 				</div>
@@ -443,133 +462,27 @@ ol, ul {
 
 			<div data-elementor-type="wp-page" data-elementor-id="3430" class="elementor elementor-3430 elementor-767" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
-							<section class="elementor-section elementor-top-section elementor-element elementor-element-30cff28 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="30cff28" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-81b1bd3" data-id="81b1bd3" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-be32ce1 elementor-widget elementor-widget-heading" data-id="be32ce1" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">Контакти</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-04dcea7 elementor-widget elementor-widget-heading" data-id="04dcea7" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">Свържете се с нас</h3>		</div>
-				</div>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-957b7c5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="957b7c5" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2685c56" data-id="2685c56" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-0913377 elementor-widget elementor-widget-heading" data-id="0913377" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">Локация</h4>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e52a3b9" data-id="e52a3b9" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-67a1851 elementor-widget elementor-widget-text-editor" data-id="67a1851" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-								<div style="font-size: 17px;">София 1113
-улица “Николай Хайтов“ № 3А, ет.2</div>						</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3df4997 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3df4997" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-579b681" data-id="579b681" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-df3e076 elementor-widget elementor-widget-heading" data-id="df3e076" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">Имейл</h4>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c5a3f49" data-id="c5a3f49" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-a2477f7 elementor-widget elementor-widget-text-editor" data-id="a2477f7" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-								<a style="color: white; font-size: 18px;" href="mailto:office@simplefinance.net">office@simplefinance.net</a>						</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-9e9805f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9e9805f" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-73df2a9" data-id="73df2a9" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-1244fbf elementor-widget elementor-widget-heading" data-id="1244fbf" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">Телефон</h4>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1a7078f" data-id="1a7078f" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-15b8363 elementor-widget elementor-widget-text-editor" data-id="15b8363" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-								<a style="color: white; font-size: 18px;" href="phone:+359 2 427 99 99">+359 2 427 99 99</a></p>						</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-72712cf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="72712cf" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4450164" data-id="4450164" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-60ee56a elementor-widget elementor-widget-google_maps" data-id="60ee56a" data-element_type="widget" data-widget_type="google_maps.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-custom-embed">
-			<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=%D1%83%D0%BB.%20%E2%80%9E%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%20%D0%A5%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%E2%80%9C%203%D0%90%2C%201113%20%D0%B6.%D0%BA.%20%D0%98%D0%B7%D1%82%D0%BE%D0%BA%2C%20%D0%A1%D0%BE%D1%84%D0%B8%D1%8F&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near" title="%3$s" aria-label="%3$s"></iframe>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-98f73b7" data-id="98f73b7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-					<div class="elementor-background-overlay"></div>
-								<div class="elementor-element elementor-element-25d617b elementor-widget elementor-widget-heading" data-id="25d617b" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">Безплатна консултация</h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-844bfec elementor-widget elementor-widget-heading" data-id="844bfec" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Запази консултация</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-6a3f304 elementor-widget elementor-widget-elementskit-contact-form7" data-id="6a3f304" data-element_type="widget" data-widget_type="elementskit-contact-form7.default">
-				<div class="elementor-widget-container">
-			<div class="ekit-wid-con" ><div class="ekit-form"><div role="form" class="wpcf7" id="wpcf7-f3178-p3430-o1" lang="en-US" dir="ltr">
-<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="https://simplefinance.net/bg/контакти/#wpcf7-f3178-p3430-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="3178" />
-<input type="hidden" name="_wpcf7_version" value="5.4.2" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3178-p3430-o1" />
-<input type="hidden" name="_wpcf7_container_post" value="3430" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
-</div>
-<p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Име*" /></span></p>
-<p><span class="wpcf7-form-control-wrap your-name1"><input type="text" name="your-name1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Фамилия*" /></span></p>
-<p><span class="wpcf7-form-control-wrap tel"><input type="tel" name="tel" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Телефон*" /></span></p>
-<p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Имейл*" /></span></p>
-<p><span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Тема*" /></span></p>
-<p><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Съобщение*"></textarea></span></p>
-<p><input type="submit" value="Потвърди" class="wpcf7-form-control wpcf7-submit" /></p>
-<div class="wpcf7-response-output" aria-hidden="true"></div></form></div></div></div>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
+							<section id ="mainImage" class="elementor-section elementor-top-section elementor-element elementor-element-30cff28 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="30cff28" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+								<center><section>
+								<div id="circleMenuBg" class="circle-menu" style="display: flex; justify-content: center; width: 1100px; height: 200px; transform: scale(1.3);">
+									<nav style="padding-top: 11vh;" class="menu" id="servicesMenu">
+										<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+										<label class="menu-open-button" for="menu-open">
+										 <!-- <span class="lines line-1"></span>
+										 <span class="lines line-2"></span>
+										 <span class="lines line-3"></span> -->
+										 <p style="color: #FFFF; font-size: 1.5vh; padding-top: 36px;">Услуги</p>
+									   </label>
+										<a style="padding-top: 6px;" href="../index.html" class="menu-item-circle blue"> <i class="fa"></i></a>
+										<a style="padding-top: 6px;" href="../simple-marketing/index.html" class="menu-item-circle green"> <i class="fa "></i></a>
+										<a style="padding-top: 6px;" href="../simple-it/index.html" class="menu-item-circle red"> <i class="fa"></i></a>
+										<a style="padding-top: 6px; visibility: hidden;" href="#" class="menu-item-circle purple"> <i class="fa "></i>Discover more</a>
+										<a style="padding-top: 6px; visibility: hidden;" href="simple-law/index.html" class="menu-item-circle orange"> <i class="fa "></i>Contacts</a>
+										<a style="padding-top: 6px;" href="../simple-law/index.html" class="menu-item-circle lightblue"> <i class="fa "></i></a>
+									 </nav>
+									</div>
+									<br><br><br><br><br><br>
+								</section></center>
 		</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-6d8dc98f elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6d8dc98f" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -594,6 +507,7 @@ Profits for Long Term</h2>		</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 					<div class="elementor-background-overlay"></div>
 								<section class="elementor-section elementor-inner-section elementor-element elementor-element-60bb09d6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="60bb09d6" data-element_type="section">
+
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-18b27583" data-id="18b27583" data-element_type="column">
@@ -1162,14 +1076,14 @@ Profits for Long Term</h2>		</div>
 
         <div class="elementskit-accordion accoedion-primary" id="accordion-62363eec0b129">
 
-            
+
                 <div class="elementskit-card">
                     <div class="elementskit-card-header" id="primaryHeading-0-5debd956">
                         <a href="#Collapse-f9d07e262363eec0b129" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-f9d07e262363eec0b129" aria-expanded="true" aria-controls="Collapse-f9d07e262363eec0b129">
-                            
+
                             <span class="ekit-accordion-title">The Ultimate Guide To Solve Your Problem.</span>
 
-                            
+
                                 <div class="ekit_accordion_icon_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1181,7 +1095,7 @@ Profits for Long Term</h2>		</div>
 
                                 </div>
 
-                            
+
                                                     </a>
                     </div>
 
@@ -1194,14 +1108,14 @@ Profits for Long Term</h2>		</div>
 
                 </div><!-- .elementskit-card END -->
 
-                
+
                 <div class="elementskit-card">
                     <div class="elementskit-card-header" id="primaryHeading-1-5debd956">
                         <a href="#Collapse-6ec7aca62363eec0b129" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-6ec7aca62363eec0b129" aria-expanded="false" aria-controls="Collapse-6ec7aca62363eec0b129">
-                            
+
                             <span class="ekit-accordion-title">How To Improve IT Solution Service.</span>
 
-                            
+
                                 <div class="ekit_accordion_icon_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1213,7 +1127,7 @@ Profits for Long Term</h2>		</div>
 
                                 </div>
 
-                            
+
                                                     </a>
                     </div>
 
@@ -1226,14 +1140,14 @@ Profits for Long Term</h2>		</div>
 
                 </div><!-- .elementskit-card END -->
 
-                
+
                 <div class="elementskit-card">
                     <div class="elementskit-card-header" id="primaryHeading-2-5debd956">
                         <a href="#Collapse-42e3f9a62363eec0b129" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-42e3f9a62363eec0b129" aria-expanded="false" aria-controls="Collapse-42e3f9a62363eec0b129">
-                            
+
                             <span class="ekit-accordion-title">Your Business Into The Ground.</span>
 
-                            
+
                                 <div class="ekit_accordion_icon_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1245,7 +1159,7 @@ Profits for Long Term</h2>		</div>
 
                                 </div>
 
-                            
+
                                                     </a>
                     </div>
 
@@ -1304,12 +1218,12 @@ Profits for Long Term</h2>		</div>
 				<div class="elementor-widget-container">
 					<div class="elementor-testimonial-wrapper elementor-testimonial-text-align-left">
 							<div class="elementor-testimonial-content">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam”</div>
-			
+
 						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
 				<div class="elementor-testimonial-meta-inner">
 											<div class="elementor-testimonial-image">
 							<img width="56" height="56" src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/07/clnt-img0132a6.png?time=1647357548" class="attachment-full size-full" alt="" loading="lazy" />						</div>
-					
+
 										<div class="elementor-testimonial-details">
 														<div class="elementor-testimonial-name">David Richerd Doe</div>
 																						<div class="elementor-testimonial-job">Travel Agent</div>
@@ -1481,6 +1395,132 @@ Profits for Long Term</h2>		</div>
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c89846a" data-id="c89846a" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<section class="elementor-section elementor-inner-section elementor-element elementor-element-4947714 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4947714" data-element_type="section">
+									<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-81b1bd3" data-id="81b1bd3" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-be32ce1 elementor-widget elementor-widget-heading" data-id="be32ce1" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+						<h3 class="elementor-heading-title elementor-size-default" style="color:#092142">Контакти</h3>		</div>
+							</div>
+							<div class="elementor-element elementor-element-04dcea7 elementor-widget elementor-widget-heading" data-id="04dcea7" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+						<h3 class="elementor-heading-title elementor-size-default" style="color:#092142">Свържете се с нас</h3>		</div>
+							</div>
+							<section class="elementor-section elementor-inner-section elementor-element elementor-element-957b7c5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="957b7c5" data-element_type="section">
+									<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2685c56" data-id="2685c56" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-0913377 elementor-widget elementor-widget-heading" data-id="0913377" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+						<h4 class="elementor-heading-title elementor-size-default"style="color:#092142">Локация</h4>		</div>
+							</div>
+								</div>
+					</div>
+							<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e52a3b9" data-id="e52a3b9" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-67a1851 elementor-widget elementor-widget-text-editor" data-id="67a1851" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+											<div style="font-size: 17px;color:#092142">София 1113
+			улица “Николай Хайтов“ № 3А, ет.2</div>						</div>
+							</div>
+								</div>
+					</div>
+										</div>
+					</section>
+							<section class="elementor-section elementor-inner-section elementor-element elementor-element-3df4997 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3df4997" data-element_type="section">
+									<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-579b681" data-id="579b681" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-df3e076 elementor-widget elementor-widget-heading" data-id="df3e076" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+						<h4 class="elementor-heading-title elementor-size-default" style="color:#092142">Имейл</h4>		</div>
+							</div>
+								</div>
+					</div>
+							<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c5a3f49" data-id="c5a3f49" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-a2477f7 elementor-widget elementor-widget-text-editor" data-id="a2477f7" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+											<a style="color: #092142; font-size: 18px;" href="mailto:office@simplefinance.net">office@simplefinance.net</a>						</div>
+							</div>
+								</div>
+					</div>
+										</div>
+					</section>
+							<section class="elementor-section elementor-inner-section elementor-element elementor-element-9e9805f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9e9805f" data-element_type="section">
+									<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-73df2a9" data-id="73df2a9" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-1244fbf elementor-widget elementor-widget-heading" data-id="1244fbf" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+						<h4 class="elementor-heading-title elementor-size-default" style="color: #092142">Телефон</h4>		</div>
+							</div>
+								</div>
+					</div>
+							<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1a7078f" data-id="1a7078f" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-15b8363 elementor-widget elementor-widget-text-editor" data-id="15b8363" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+											<a style="color: #092142; font-size: 18px;" href="phone:+359 2 427 99 99">+359 2 427 99 99</a></p>						</div>
+							</div>
+								</div>
+					</div>
+										</div>
+					</section>
+							<section class="elementor-section elementor-inner-section elementor-element elementor-element-72712cf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="72712cf" data-element_type="section">
+									<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4450164" data-id="4450164" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-60ee56a elementor-widget elementor-widget-google_maps" data-id="60ee56a" data-element_type="widget" data-widget_type="google_maps.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-custom-embed">
+						<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=%D1%83%D0%BB.%20%E2%80%9E%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%20%D0%A5%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%E2%80%9C%203%D0%90%2C%201113%20%D0%B6.%D0%BA.%20%D0%98%D0%B7%D1%82%D0%BE%D0%BA%2C%20%D0%A1%D0%BE%D1%84%D0%B8%D1%8F&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near" title="%3$s" aria-label="%3$s"></iframe>
+					</div>
+							</div>
+							</div>
+								</div>
+					</div>
+										</div>
+					</section>
+								</div>
+					</div>
+							<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-98f73b7" data-id="98f73b7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-background-overlay"></div>
+											<div class="elementor-element elementor-element-25d617b elementor-widget elementor-widget-heading" data-id="25d617b" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+						<h6 class="elementor-heading-title elementor-size-default">Безплатна консултация</h6>		</div>
+							</div>
+							<div class="elementor-element elementor-element-844bfec elementor-widget elementor-widget-heading" data-id="844bfec" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+						<h2 class="elementor-heading-title elementor-size-default">Запази консултация</h2>		</div>
+							</div>
+							<div class="elementor-element elementor-element-6a3f304 elementor-widget elementor-widget-elementskit-contact-form7" data-id="6a3f304" data-element_type="widget" data-widget_type="elementskit-contact-form7.default">
+							<div class="elementor-widget-container">
+						<div class="ekit-wid-con" ><div class="ekit-form"><div role="form" class="wpcf7" id="wpcf7-f3178-p3430-o1" lang="en-US" dir="ltr">
+			<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+			<form action="https://simplefinance.net/bg/контакти/#wpcf7-f3178-p3430-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+			<div style="display: none;">
+			<input type="hidden" name="_wpcf7" value="3178" />
+			<input type="hidden" name="_wpcf7_version" value="5.4.2" />
+			<input type="hidden" name="_wpcf7_locale" value="en_US" />
+			<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3178-p3430-o1" />
+			<input type="hidden" name="_wpcf7_container_post" value="3430" />
+			<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+			<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+			</div>
+			<p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Име*" /></span></p>
+			<p><span class="wpcf7-form-control-wrap your-name1"><input type="text" name="your-name1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Фамилия*" /></span></p>
+			<p><span class="wpcf7-form-control-wrap tel"><input type="tel" name="tel" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Телефон*" /></span></p>
+			<p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Имейл*" /></span></p>
+			<p><span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Тема*" /></span></p>
+			<p><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Съобщение*"></textarea></span></p>
+			<p><input type="submit" value="Потвърди" class="wpcf7-form-control wpcf7-submit" /></p>
+			<div class="wpcf7-response-output" aria-hidden="true"></div></form></div></div></div>		</div>
+							</div>
+								</div>
+					</div>
+				</div> <br><br><br>
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5ccde9b" data-id="5ccde9b" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -1502,7 +1542,7 @@ Profits for Long Term</h2>		</div>
                                             <div class="elementskit-client-slider-item swiper-slide ">
                             <div class="slick-slide">
                                 <div class="single-client image-switcher" title="TUV">
-                                    
+
 
                                         <a href="https://www.tuv.com/bulgaria/bg/" target="_blank" >
                                             <span class="content-image">
@@ -1511,7 +1551,7 @@ Profits for Long Term</h2>		</div>
                                                                                                     <img width="154" height="80" src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/09/TUV_LOGO_WHITE32a6.png?time=1647357548" class="hover-image" alt="" loading="lazy" />                                                                                            </span>
                                         </a>
 
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -1519,7 +1559,7 @@ Profits for Long Term</h2>		</div>
                                             <div class="elementskit-client-slider-item swiper-slide ">
                             <div class="slick-slide">
                                 <div class="single-client image-switcher" title="Crayon">
-                                    
+
 
                                         <a href="https://www.crayon.com/bg/" target="_blank" >
                                             <span class="content-image">
@@ -1528,7 +1568,7 @@ Profits for Long Term</h2>		</div>
                                                                                                     <img width="154" height="80" src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/09/CRAYON_LOGO_WHITE32a6.png?time=1647357548" class="hover-image" alt="" loading="lazy" />                                                                                            </span>
                                         </a>
 
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -1536,7 +1576,7 @@ Profits for Long Term</h2>		</div>
                                             <div class="elementskit-client-slider-item swiper-slide ">
                             <div class="slick-slide">
                                 <div class="single-client image-switcher" title="All digital">
-                                    
+
 
                                         <a href="https://alldigital.bg/" target="_blank" >
                                             <span class="content-image">
@@ -1545,7 +1585,7 @@ Profits for Long Term</h2>		</div>
                                                                                                     <img width="154" height="80" src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/09/AD_LOGO_WHITE32a6.png?time=1647357548" class="hover-image" alt="" loading="lazy" />                                                                                            </span>
                                         </a>
 
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -1553,7 +1593,7 @@ Profits for Long Term</h2>		</div>
                                             <div class="elementskit-client-slider-item swiper-slide ">
                             <div class="slick-slide">
                                 <div class="single-client image-switcher" title="Navtech">
-                                    
+
 
                                         <a href="https://navtech.bg/" target="_blank" >
                                             <span class="content-image">
@@ -1562,7 +1602,7 @@ Profits for Long Term</h2>		</div>
                                                                                                     <img width="154" height="80" src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/09/NAVTECH_LOGO_WHITE32a6.png?time=1647357548" class="hover-image" alt="" loading="lazy" />                                                                                            </span>
                                         </a>
 
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -1570,7 +1610,7 @@ Profits for Long Term</h2>		</div>
                                             <div class="elementskit-client-slider-item swiper-slide ">
                             <div class="slick-slide">
                                 <div class="single-client image-switcher" title="Poly Comp">
-                                    
+
 
                                         <a href="https://polycomp.bg/poly/home" target="_blank" >
                                             <span class="content-image">
@@ -1579,7 +1619,7 @@ Profits for Long Term</h2>		</div>
                                                                                                     <img width="154" height="80" src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/09/POLYCOMP_LOGO_WHITE32a6.png?time=1647357548" class="hover-image" alt="" loading="lazy" />                                                                                            </span>
                                         </a>
 
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -1587,7 +1627,7 @@ Profits for Long Term</h2>		</div>
                                             <div class="elementskit-client-slider-item swiper-slide ">
                             <div class="slick-slide">
                                 <div class="single-client image-switcher" title="Check Point">
-                                    
+
 
                                         <a href="https://www.checkpoint.com/" target="_blank" >
                                             <span class="content-image">
@@ -1596,7 +1636,7 @@ Profits for Long Term</h2>		</div>
                                                                                                     <img width="154" height="80" src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/09/CHECKPOINT_LOGO_WHITE32a6.png?time=1647357548" class="hover-image" alt="" loading="lazy" />                                                                                            </span>
                                         </a>
 
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -1604,7 +1644,7 @@ Profits for Long Term</h2>		</div>
                                     </div>
 
             </div><!-- .elementskit-clients-slider END -->
-           
+
             <ul class="slick-dots swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></ul>
                     </div>
 
@@ -1620,6 +1660,7 @@ Profits for Long Term</h2>		</div>
 			<div class='footer-width-fixer'>		<div data-elementor-type="wp-post" data-elementor-id="5711" class="elementor elementor-5711 elementor-5685" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
 							<section class="elementor-section elementor-top-section elementor-element elementor-element-dcead2f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dcead2f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-30ddafc" data-id="30ddafc" data-element_type="column">
@@ -1628,13 +1669,13 @@ Profits for Long Term</h2>		</div>
 				<div class="elementor-widget-container">
 					<div class="hfe-site-logo">
 													<a data-elementor-open-lightbox=""  class='elementor-clickable' href="../../index.html">
-							<div class="hfe-site-logo-set">           
+							<div class="hfe-site-logo-set">
 				<div class="hfe-site-logo-container">
 					<img class="hfe-site-logo-img elementor-animation-"  src="../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/uploads/2021/07/Simple-Finance_Brand-Identity-landing32a6.png?time=1647357548" alt="Simple-Finance_Brand-Identity-landing"/>
 				</div>
 			</div>
 							</a>
-						</div>  
+						</div>
 					</div>
 				</div>
 				<div class="elementor-element elementor-element-1dfb3d2 elementor-widget elementor-widget-text-editor" data-id="1dfb3d2" data-element_type="widget" data-widget_type="text-editor.default">
@@ -1692,10 +1733,6 @@ Profits for Long Term</h2>		</div>
 									</li>
 								<li class="elementor-icon-list-item">
 					<a href="#row1">					<span class="elementor-icon-list-text">Simple Marketing</span>
-											</a>
-									</li>
-								<li class="elementor-icon-list-item">
-					<a href="#row1">					<span class="elementor-icon-list-text">Simple IT</span>
 											</a>
 									</li>
 								<li class="elementor-icon-list-item">
@@ -1860,7 +1897,7 @@ Profits for Long Term</h2>		</div>
 						</div>
 					</div>
 		</div>		</footer>
-	
+
 		<script type="text/javascript">
 			window.RS_MODULES = window.RS_MODULES || {};
 			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
@@ -1993,10 +2030,10 @@ Profits for Long Term</h2>		</div>
 				<div class="cli-row">
 					<div class="cli-col-12 cli-align-items-stretch cli-px-0">
 						<div class="cli-tab-footer wt-cli-privacy-overview-actions">
-						
+
 															<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE & ACCEPT</a>
 													</div>
-						
+
 					</div>
 				</div>
 			</div>
@@ -2034,7 +2071,7 @@ var option = {"mystickyClass":".navbar","activationHeight":"0","disableWidth":"0
             resturl: 'https://simplefinance.net/bg/wp-json/elementskit/v1/',
         }
 
-		
+
 </script>
 <script src='../../../secureservercdn.net/160.153.137.170/m8d.8b4.myftpupload.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scriptsc772.js?ver=2.3.3&amp;time=1647357548' id='ekit-widget-scripts-js'></script>
 <script src='../../../www.google.com/recaptcha/api486e.js?render=6LdOz4AcAAAAACpkPphlXHr7aRqRtACVwOckZ4Ef&amp;ver=3.0' id='google-recaptcha-js'></script>
